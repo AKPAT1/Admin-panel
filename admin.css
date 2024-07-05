@@ -1,12 +1,12 @@
 body
 {
-    background-color: #eee;
+    background-color: #99738e;
 }
 
 .sidebar
 {
     height: 100vh;
-    background:linear-gradient(rgba(0,0,0,.6) , rgba(0,0,0,.9)) , url(./Photo/download.jpg) ;
+    background:linear-gradient(#553d67 , #f64c72) , url(./Photo/download.jpg) ;
     background-position:center ;
     background-size: cover;
     background-repeat: no-repeat;
@@ -39,4 +39,9 @@ body
 {
     background-color: #f66436;
     transform: translateY(-2px);
+}
+
+.p
+{
+    padding: 14px;
 }
