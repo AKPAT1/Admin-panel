@@ -103,7 +103,7 @@
                               </a>
                             </li>
                             <li class="nav-item ml-md-auto">
-                              <a href="" class="nav-link">
+                              <a href="#logout" data-toggle="modal" class="nav-link">
                                 <i class="fas fa-sign-out-alt fa-lg text-danger"></i>
                               </a>
                             </li>
@@ -118,6 +118,25 @@
         </div>
     </nav>
     <!--End of Navigation-->
+
+    <!--Modal-->
+    <div class="modal fade" id="logout">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4>Do you want to exit?</h4>
+          </div>
+          <div class="modal-body">
+            <p class="text-meuted">If you log out, you must log in again to regain access</p>
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-success" data-dismiss="modal">Stay</button>
+            <button class="btn btn-danger" >Exit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--End of Modal-->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
