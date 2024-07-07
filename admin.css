@@ -90,7 +90,7 @@ body
 
 .mycard
 {
-    background-color:rgba(39, 41, 116, 0.502);
+    background-color:rgba(39, 42, 116, 0.306);
     box-shadow: 1px 2px 5px #000000;
     transition: all .4s;
 }
@@ -98,4 +98,14 @@ body
 {
     box-shadow: 2px 3px 15px #000000;
     transform: translateY(-2px);
+}
+
+.taskborder
+{
+    border-right: 5px solid rgb(78, 0, 130);
+}
+
+.mycolor
+{
+    background-color: #68173296;
 }
